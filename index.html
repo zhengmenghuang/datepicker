@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>datepicker 示例</title>
+    <link href="css/datepickerCss.min.css" rel="stylesheet">
+    <script src="js/datepickerJs.js"></script>
+</head>
+<body>
+<input id="date1" type="text">
+<input id="date2" type="text">
+<input id="date3" type="text">
+
+
+<script>
+    var date1 = new Datepicker();
+    var date2 = new Datepicker();
+    var date3 = new Datepicker();
+    //日期可不传
+    date1.init("#date1", 2018, 3);
+    date2.init("#date2", 2018, 4);
+    date3.init("#date3", 2018, 5);
+</script>
+</body>
+</html>
